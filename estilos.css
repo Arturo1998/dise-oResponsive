@@ -1,0 +1,335 @@
+body {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  color: lightslategray;
+  font-weight: lighter;
+}
+
+h1 {
+  background-size: contain;
+  background-image: url(./imgs/tarta_manzana.jpg);
+  height: 20px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  background-size: 100%;
+  background-position: center;
+  padding-top: 4em;
+  padding-bottom: 1em;
+}
+
+main{
+  border-bottom: solid 5px gray;
+  width: 100%;
+  padding-bottom: 2em;
+  
+}
+
+main p{
+  font-size: medium;
+  margin: 0px 10px 30px 10px;
+}
+
+
+main div {
+ float: left;
+ margin-bottom: 0px;
+}
+
+main div div {
+  padding: 0 1em 0 1em;
+  overflow: hidden;
+  font-size: 15px;
+  height: 26px;
+}
+
+main div div:first-child img {
+  margin-bottom: -4em;
+  height: 5em;
+}
+
+main div div:nth-child(2) img {
+  height: 5em;
+  margin-top: -3em;
+  padding-top: 8px;
+  margin-bottom: -2.3em;
+}
+
+main div div:last-child img {
+  height: 5em;
+  margin-top: -4.5em;
+  padding-top: 13px;
+}
+
+section ul h3{
+  margin-left: -1em;
+  margin-top: -0.5em;
+}
+
+section article {
+  font-size: 15px;
+  float: left;
+  border-bottom: solid 5px gray;
+  width: 100%;
+  padding-bottom: 1em;
+  height: 6.5em;
+}
+
+section article span {
+  position: relative;
+  left: 20%; 
+  margin: 10px;
+  height: 5em;
+  float: left;
+}
+
+article span div  {
+  height: 3.4em;
+  position: absolute;
+  right: 100%;
+  overflow: hidden;
+  top: 30%;
+}
+
+article span div img{
+  height: 11em;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+section article span:nth-child(1) {
+  padding-left: 1em;
+  padding-right: 1em;
+  border-left: solid 1px lightslategray;
+  height: 5.1em;
+  text-align: center;
+}
+ 
+section article span:nth-child(2) {
+  border-left: solid 1px lightslategray;
+  border-right: solid 1px lightslategray;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+}
+ 
+section ol h3 {
+  margin-left: -1em;
+  margin-top: 5.5em;
+}
+
+ol li {
+  font-size: 25px;
+}
+
+b{
+  color: #404040;
+}
+
+@media screen and (min-width:35em) {
+
+  h1{
+  color: white;
+  background-position: top;
+  padding-top: 2em;
+  padding-bottom: 1.5em;
+}
+
+main{
+  border: 0px;
+}
+
+main div {
+  float: none;
+  margin-top: 2.5em;
+}
+
+main div div {
+  position: relative;
+  top: 2em;
+}
+
+section ul h3 {
+  position: relative;
+  top: 0.5em;
+  
+}
+
+body > section > ul {
+  float: left;
+  width: 75%;
+  margin-top: -9.5em;
+  margin-left: 5em;
+  }
+
+  section > ul > h3{
+    margin-bottom: 1em;
+  }
+
+  section > ul > li{
+    font-size: 22px;
+    margin-right: 2em;
+  }
+
+  section article{
+    float: none;
+    width: 25%;
+    border: none;
+  }
+
+  section article span{
+    float: none;
+  }
+
+  section article span:nth-child(1) {
+   border: 0px;
+  }
+
+  section article span:nth-child(2) {
+    border: 0px;
+  }
+
+
+  section article span:nth-child(3) {
+    border: 0px;
+    left: 75px;
+  }
+
+  article span div {
+    margin-right: -6em;
+    margin-top: 3em;
+  }
+
+  article span div img{
+    height: 9em;
+    padding-top: 0.5em; 
+    position: relative;
+    right: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  article span p{
+    margin: 2px;
+    position: relative;
+    top: 7em;
+    right: 2em;
+    
+  }
+
+  section ol h3 {
+    position: relative;
+    top: 0.5em;
+    
+  }
+  
+  section ol{
+    float: left;
+    width: 75%;
+    margin-top: -7em;
+    margin-left: 5em;
+    
+  }
+
+  section ol li {
+    font-size: 22px;
+    margin-right: 2em;
+  }
+
+ }
+
+ 
+ @media screen and (min-width:50.5em) {
+  body > div {
+    background-size: 120%;
+    background-image: url(./imgs/tarta_manzana.jpg);
+    height: 6.5em;
+    width: 10em;
+    position: relative;
+    background-position: center;
+    top: -7em;
+  }
+   h1{
+ background-image: none;
+ color: black;
+ position: relative;
+ left: 1em;
+ top: -1em;
+  }
+
+  main p{
+    width: 65%;
+    margin-left: 10em;
+    font-size: 20px;
+    position: relative;
+    top: -12em;
+    left: 4em;
+    height: 0em;
+  }
+
+  main{
+    height: 4em;
+  }
+
+  main div {
+    float: left;
+    margin-bottom: 0px;
+   }
+
+   main div div {
+    margin-right: -1em;
+    position: relative;
+    top: -12em;
+    font-size: 12px;
+    height: 1.80em;
+   }
+
+   section ul{
+    width: 60%;
+    position: relative;
+    left: 6em;
+    border-left: solid 5px gray;
+   }
+
+   section ul li {
+    width: 75%;
+   }
+
+   section ol {
+    position: relative;
+    left: 6em;
+    border-left: solid 5px gray;
+    margin-top: 10px;
+    height: 21em;
+   }
+
+   section ol h3 {
+    position: relative;
+    top: -5em;
+   }
+
+
+   section ol li {
+    width: 75%;
+    position: relative;
+    top: -7em;
+
+   }
+
+section article span {
+  position: relative;
+  left: 20%; 
+  margin: 10px;
+  height: 5em;
+  float: left;
+  font-size: xx-small;
+  top: 6em;
+}
+
+section article span div {
+  float: le;
+}
+
+   
+
+ }
